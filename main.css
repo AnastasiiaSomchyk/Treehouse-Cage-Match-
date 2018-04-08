@@ -1,0 +1,19 @@
+img {
+  display: block;
+  margin: 50px 80px 50px 80px;
+}
+
+.form-control {
+  padding: 5px;
+  height: 50px;
+}
+
+form {
+  margin-top: 30px;
+}
+.score {
+    margin-left: 245px;
+
+.btn {
+  margin-top: 30px;
+}
