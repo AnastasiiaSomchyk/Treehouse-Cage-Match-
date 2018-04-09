@@ -25,3 +25,8 @@ form {
   width: 50%;
   margin: 0 auto;
 }
+.wrap-winning-box {
+  display: flex;
+  height: 150px;
+  width: 100%;
+}
