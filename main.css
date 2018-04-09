@@ -12,8 +12,16 @@ form {
   margin-top: 30px;
 }
 .score {
-    margin-left: 245px;
+  margin-left: 245px;
+}
 
 .btn {
   margin-top: 30px;
+}
+
+.winning-box {
+  border: 1px solid grey;
+  min-height: 100px;
+  width: 50%;
+  margin: 0 auto;
 }
