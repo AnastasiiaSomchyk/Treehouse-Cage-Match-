@@ -80,11 +80,11 @@ function analyzeScore(){
   let player1Score = player1Data.points.total
   let player2Score = player2Data.points.total
   if(player1Score > player2Score){
-    winnerContainer.innerHTML = `${player1Data.name} WINS`
+    winnerContainer.innerHTML = `${player1Data.name} WINS!`
   }
 
   if(player1Score < player2Score){
-    winnerContainer.innerHTML = `${player2Data.name} WINS`
+    winnerContainer.innerHTML = `${player2Data.name} WINS!`
   }
 
   if(player1Score === player2Score){
