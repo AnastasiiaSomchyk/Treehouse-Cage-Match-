@@ -7,60 +7,61 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
         crossorigin="anonymous">
-    <title>Treehouse Cage Match</title>
+    <title>Game Of Treehouse Nerds</title>
+    <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <body class="container">
+        <div class="bg">
+
+            <div class="battle-heade"><h1>Battle Of The Bastards</h1></div>
 
     <form>
         <div class="form-row">
             <div class="form-group col-md-6  text-center">
-                <label for="inputName4">Player 1</label>
-                <input id="player-1-input" data-player-number="1" data-image-container-id="player-1-image" data-score-container-id="player-1-score"  type="textName" class="form-control input-lg" id="inputName4" placeholder="name">
+                <input id="player-1-input" data-player-number="1" data-image-container-id="player-1-image" data-score-container-id="player-1-score"  type="textName" class="form-control panel-transparent  input-lg" id="inputName4" placeholder="Warrior Name">
             </div>
-            <div class="form-group col-md-6 text-center">
-                <label for="inputName4">Player 2</label>
-                <input id="player-2-input" data-player-number="2" data-image-container-id="player-2-image" data-score-container-id="player-2-score"  type="textName" class="form-control input-lg" id="inputName4" placeholder="name">
+            <div class="form-group col-md-6 text-center">  
+                <input id="player-2-input" data-player-number="2" data-image-container-id="player-2-image" data-score-container-id="player-2-score"  type="textName" class="form-control panel-transparent input-lg" id="inputName4" placeholder="Warrior Name">
             </div>
         </div>
 
         </div>
     </form>
 
-
-    <button id="start-cage-match" class="btn btn-default center-block " type="cage-match">Start Cage Match</button>
-
+    <button id="start-cage-match" class="btn btn-default center-block " type="cage-match">Let The War Begin</button>
 
 
-    <div>
 
-        <div class="row ">
-            <div class="col-md-6">
+
+
+        <div class="row  image-wrapper">
+            <div class="col-md-5 col-md-offset-1">
                 <a href="#">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanHgQlsGf1n5g-UDIuFNg9CAFhqkl7UVS4WzldtOuP8PgweHG" class="img-fluid z-depth-4 rounded"
+                    <img  src="https://media.giphy.com/media/ZxAlfNwFZIA6I/giphy.gif" class="img-fluid z-depth-4 rounded"
                         id="player-1-image" alt="inn_logo">
                 </a>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-5 col-md-offset-2 ">
                 <a href="#">
-                    <img id="player-2-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQanHgQlsGf1n5g-UDIuFNg9CAFhqkl7UVS4WzldtOuP8PgweHG"
+                    <img id="player-2-image" src="https://media.giphy.com/media/3o7qDWZchVN4R4X5zG/giphy.gif"
                         alt="ccs_logo">
                 </a>
             </div>
         </div>
-    </div>
+   
 
 
 
     <div class="row  score">
-        <div class=" col-md-4  text-center ">
-            <div class="panel panel-default">
+        <div class=" col-md-4  text-center score-iside-box">
+            <div class="panel panel-default panel-transparent">
                 <div id="player-1-score" class="panel-body points">Score</div>
             </div>
         </div> 
-        <div class="col-md-4 text-center">
-            <div class="panel panel-default">
+        <div class="col-md-4 text-center score-iside-box">
+            <div class="panel panel-default panel-transparent">
                 <div id="player-2-score" class="panel-body points">Score</div>
             </div>
         </div>
@@ -70,10 +71,10 @@
 
 
 
-    <div class="row wrap-winning-box">
-        <div id="winner" class="col-lg-6  text-center winning-box">center</div>
+    <div class="row wrap-winning-box" >
+        <div id="winner" class="col-lg-6  text-center winning-box"></div>
     </div>
-
+</div>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js "></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js " integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa "
         crossorigin="anonymous "></script>
